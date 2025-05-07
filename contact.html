@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Flora Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Flora Haven</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="contact slide-in">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMsg"></p>
+    </section>
+
+    <section class="faq slide-in">
+      <h3>🌿 Frequently Asked Questions</h3>
+      <details>
+        <summary>How often should I water my flowers?</summary>
+        <p>Most flowers prefer watering 2–3 times a week depending on the climate and soil.</p>
+      </details>
+      <details>
+        <summary>Which flowers are good for hot weather?</summary>
+        <p>Try zinnias, marigolds, or vincas — they thrive in heat!</p>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Flora Haven</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
