@@ -1,5 +1,9 @@
 # Final Project and Deployment
 
+# Deployment link (GitHub Pages)
+https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-CipheredBits/
+
+
 ## Objectives
 Build a fully functional web application.
 Apply HTML, CSS, and JavaScript concepts learned.
